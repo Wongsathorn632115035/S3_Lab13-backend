@@ -28,3 +28,7 @@ jwt:
       path: auth
 
       refresh: refresh
+
+    registration:
+
+      path: register
