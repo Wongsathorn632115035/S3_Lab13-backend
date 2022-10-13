@@ -37,6 +37,8 @@ public class EventController {
         } else {
             pageOutput = eventService.getEvents(title, PageRequest.of(page - 1, perPage));
         }
+        System.out.println(pageOutput);
+
         HttpHeaders responseHeader = new HttpHeaders();
 
         responseHeader.set("x-total-count", String.valueOf(pageOutput.getTotalElements()));
