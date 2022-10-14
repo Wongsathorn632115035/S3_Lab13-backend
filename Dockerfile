@@ -5,7 +5,7 @@ RUN addgroup -S spring && adduser -S spring -G spring
 EXPOSE 8080
 
 
-ENV JAVA_PROFILE prod
+ENV JAVA_PROFILE db
 
 ARG DEPENDENCY=target/dependency
 
