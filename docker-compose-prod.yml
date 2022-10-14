@@ -42,7 +42,7 @@ services:
 
     environment:
 
-      - JAVA_PROFILE=prod,db
+      - JAVA_PROFILE=db
 
     depends_on:
 
